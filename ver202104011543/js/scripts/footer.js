@@ -1,0 +1,1 @@
+$(document).ready(function(){$(window).scroll(function(){$(this).scrollTop()>400?$(".scroll-top").fadeIn():$(".scroll-top").fadeOut()}),$(".scroll-top").click(function(){$("html").css("scroll-behavior","initial"),$("html, body").animate({scrollTop:0},1e3),setTimeout(function(){$("html").css("scroll-behavior","smooth")},1001)})});
